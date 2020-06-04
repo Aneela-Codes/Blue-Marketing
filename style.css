@@ -203,11 +203,17 @@ body{
         font-weight: 600;
         margin-bottom: 30px;
     }
-    .social-icons img{
-        width: 60px;
+    .social-icons i{
+        background-color: #34495e;
+        padding: 15px 20px;
+        border-radius: 50%;
+        font-size: 44px;
+        margin: 10px;
         transition: 0.5s;
+        color: white;
+        text-shadow:  5px 10px 5px #16a085;
     }
-    #social-media img:hover{
+    #social-media i:hover{
         transform: translateY(-10px);
     }
     /*.................. FOOTER............. */
